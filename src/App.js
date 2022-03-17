@@ -3,10 +3,10 @@ import HomePage from './HomePage'
 import { UserProvider } from './UserContext'
 
 function App() {
-  const user = { name: 'Tania', loggedIn: true }
+  // const user = { name: 'Tania', loggedIn: true }
 
   return (
-    <UserProvider value={user}>
+    <UserProvider >
       <HomePage />
     </UserProvider>
   )
